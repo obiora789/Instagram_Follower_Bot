@@ -178,17 +178,14 @@ class InstaFollower:
             self.scroll_effect(button_container=self.unfollow_buttons, follow_method=False)
 
 
+chosen_method = input("Type 'Follow' or 'Unfollow' to follow/unfollow accounts.\n").lower()
+print(f"You have chosen to {chosen_method} accounts.")
 insta = InstaFollower()
 insta.login()
 insta.find_followers()
-insta.follow()
-
-# pop_up_window = WebDriverWait(
-#     driver, 2).until(EC.element_to_be_clickable(
-#     (By.XPATH, "//div[@class='isgrP']")))
-#
-# # Scroll till Followers list is there
-# while True:
-#     driver.execute_script(
-#         'arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight;',
-#         pop_up_window)
+if chosen_method == "follow":
+    insta.follow()
+elif chosen_method == "unfollow":
+    insta.unfollow()
+else:
+    insta.follow()
