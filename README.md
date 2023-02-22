@@ -27,7 +27,7 @@ Statistically, there's a 65% chance you'll be followed back. You can then run th
   </ul>
   <li>That's all you need to do for now.😉</li>
 </ol>
-<p>Simply put, as long as the internet performance is better than the advertised/promised bandwidth, the twitter method will not trigger.</p>
+<p>N.B: The follow/unfollow method is specified by the user at the beginning of Instagram Bot. This is to determine which direction the Bot should go.</p>
 <hr>
 <h3>Results</h3>
 <img src="https://github.com/obiora789/Instagram_Follower_Bot/blob/obiora789-patch-1/.idea/Screenshot%202023-02-20%20at%2012.43.09.png" alt="instagramLoginPage.jpg">
