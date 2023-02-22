@@ -27,7 +27,7 @@ Statistically, there's a 65% chance you'll be followed back. You can then run th
   </ul>
   <li>That's all you need to do for now.😉</li>
 </ol>
-<p>N.B: The follow/unfollow method is specified by the user at the beginning of Instagram Bot. This is to determine which direction the Bot should go.</p>
+<p>N.B: The follow/unfollow method is specified by the user(you) at the beginning of Instagram Bot. This determines the direction of the Bot.</p>
 <hr>
 <h3>Results</h3>
 <img src="https://github.com/obiora789/Instagram_Follower_Bot/blob/obiora789-patch-1/.idea/Screenshot%202023-02-20%20at%2012.43.09.png" alt="instagramLoginPage.jpg">
