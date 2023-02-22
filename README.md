@@ -1,5 +1,5 @@
 <h1>Instagram Follower Bot</h1>
-This Bot helps you grow your followers on Instagram by following accounts which are themseleves followers of your target(celebrity) account. <br>
+This Bot helps you grow your followers on Instagram by following accounts, which are themseleves followers of your target(celebrity) account. <br>
 Statistically, there's a 65% chance you'll be followed back. You can then run the unfollow method, to unfollow the accounts, after you have gotten your desired number of followers 😉. <br>
 
 <h2>Requirements</h2>
