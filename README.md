@@ -24,10 +24,11 @@ Statistically, there's a 65% chance you'll be followed back. You can then run th
     <li>CHROME_PATH=pathToChromeDriverOnYourPC</li>
     <li>USER_NAME=instagramUsername</li>
     <li>PASS_WORD=instagramPassword</li>
+    <li>CELEBRITY_ACCOUNT=targetCelebrityAccount</li>
   </ul>
   <li>That's all you need to do for now.😉</li>
 </ol>
-<p><strong>N.B: The follow/unfollow method is specified by the user(you) at the beginning of Instagram Bot. This determines the direction of the Bot.</strong></p>
+<p><strong>N.B: The follow/unfollow method is specified by the user(you) at the beginning of Instagram Bot simply by running the code and typing "Follow" or "Unfollow". This determines the direction of the Bot.</strong></p>
 <hr>
 <h3>Results</h3>
 <img src="https://github.com/obiora789/Instagram_Follower_Bot/blob/obiora789-patch-1/.idea/Screenshot%202023-02-20%20at%2012.43.09.png" alt="instagramLoginPage.jpg">
