@@ -13,10 +13,8 @@ import random
 new_file = dotenv.find_dotenv()
 dotenv.load_dotenv(new_file)
 
-MY_NAME = os.environ.get("NAME")
 INSTAGRAM_URL = "https://www.instagram.com/"
 TARGET_ACCOUNT = os.environ.get("CELEBRITY_ACCOUNT")
-print(TARGET_ACCOUNT)
 CHROME_DRIVER = os.environ.get("CHROME_PATH")
 USERNAME = os.environ.get("USER_NAME")
 PASSWORD = os.getenv("PASS_WORD")
@@ -34,7 +32,7 @@ def generate_random_time(number_of_secs):
 
 
 class InstaFollower:
-    """This class takes care of all """
+    """This class takes care of all the attributes and activities to be carried out by the bot."""
 
     def __init__(self):
         self.options = webdriver.ChromeOptions()
@@ -89,6 +87,7 @@ class InstaFollower:
         time.sleep(generate_random_time(DELAY))
 
     def scroll_effect(self, button_container: list, follow_method: bool):
+        """This method handles scrolling inside the followers container"""
         count = 0
         button_count = 0
         follow_string = ""
