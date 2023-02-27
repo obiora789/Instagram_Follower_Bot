@@ -15,7 +15,8 @@ dotenv.load_dotenv(new_file)
 
 MY_NAME = os.environ.get("NAME")
 INSTAGRAM_URL = "https://www.instagram.com/"
-TARGET_ACCOUNT = "https://www.instagram.com/thechefchi/"
+TARGET_ACCOUNT = os.environ.get("CELEBRITY_ACCOUNT")
+print(TARGET_ACCOUNT)
 CHROME_DRIVER = os.environ.get("CHROME_PATH")
 USERNAME = os.environ.get("USER_NAME")
 PASSWORD = os.getenv("PASS_WORD")
